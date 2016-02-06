@@ -11,14 +11,14 @@ img {
 }
 
 .jumbotron {
-    padding: 0.5em 0.6em;
+    padding: 0.4em 0.6em;
     h1 {
         font-size: 2em;
     }
     p {
-        font-size: 1.2em;
+        font-size: 1em;
         .btn {
-            padding: 0.5em;
+            padding: 0.2em;
         }
     }
 }
