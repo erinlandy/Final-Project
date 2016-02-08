@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 // counter at the top of the screen.
 function addItem() {
-  var text = window.prompt("Submit Event Info for a Quote");
+  var text = window.prompt("New To-Do Item");
   var delete_link = '<a href="#" class="link-delete">(Delete)</a>'
   $("ol").append("<li>" + text + " " + delete_link + "</li>");
   var numItems = $("li").length;
