@@ -4,7 +4,6 @@ $(document).ready(function() {
   $("ol").on("click", ".link-delete", deleteItem);
 });
 
-
 // counter at the top of the screen.
 function addItem() {
   var text = window.prompt("Submit Event Info for a Quote");
@@ -13,7 +12,7 @@ function addItem() {
   var numItems = $("li").length;
   $(".total").html(numItems + " items");
 
-  if (numItems ==1) {
+  if (numItems ==1 ) {
     $(".total").html(numItems + " item");
   }
 else {
